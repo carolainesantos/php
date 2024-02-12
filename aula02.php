@@ -8,6 +8,9 @@
 
 <body>
   <?php 
+  $n = 4;
+  $no = "Carol";
+  echo $no;
 
   ?>
 </body>
