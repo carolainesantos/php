@@ -1,1 +1,3 @@
-Aulas do curso em vídeo sobre php 🐘
+# Projeto PHP 🐘
+
+Aulas do curso em vídeo sobre php.
