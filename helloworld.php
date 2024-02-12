@@ -8,13 +8,18 @@
   <style>
     h2{
       color: #80a2ff;
-      text-shadow: 1px 1px 1px #222;
+      text-shadow: 1px 1px 1px #111;
     }
-  </style>
 
+    body{
+      background-color: #777;
+    }
+
+  </style>
 </head>
 
 <body>
+
   <?php 
     echo "<h2>Hello World!</h2>";
   ?>
