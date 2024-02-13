@@ -1,0 +1,32 @@
+body {
+  color: #fafafa;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(./img/elephant.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: rgba(97, 84, 28, 0.9);
+  /* background-color: #ecc5e6; */
+  align-items: center;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  height: 800px;
+  width: 900px;
+}
+
+.card .title {
+  margin-top: 0px;
+  color: chartreuse;
+}
