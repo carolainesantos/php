@@ -3,25 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <meta http-equiv="refresh" content="30"> Serve pra dar refresh automático a cada 30seg-->
   <title>Estudando PHP</title>
-
-  <link rel="stylesheet" href="./css/style02.css">
+  <link rel="stylesheet" href="./css/style03.css">
 </head>
-
 <body>
-
-  <div class="card">
+<div class="card">
     <div class="title">
       <h3>
         <?php
-        echo "Aula 02";
+        echo "Aula 03";
         ?>
       </h3>
     </div>
 
     <!-- Seção: Variáveis em PHP -->
-    <h4>Variáveis em PHP</h4>
+    <h4>Operações Aritméticas em PHP</h4>
     <?= "• Toda variável em PHP deve conter um (\$) antes do nome da mesma.<br>" ?>
 
     <!-- Seção: Comandos de saída do PHP -->
@@ -48,6 +44,5 @@
     echo "Saída: $nome tem $idade anos.";
     ?>
   </div>
-
 </body>
 </html>
