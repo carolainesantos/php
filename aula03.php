@@ -18,11 +18,15 @@
 
     <!-- Seção: Variáveis em PHP -->
     <h4>Operações Aritméticas em PHP</h4>
-    <?= "• Toda variável em PHP deve conter um (\$) antes do nome da mesma.<br>" ?>
+    <?= " Uma coisa importante é saber a ordem de precedência de operadores aritméticos em PHP. Sempre em uma expressão, os operadores que serão executados são, na ordem:<br><br>" ?>
+
+    <?= "• Em primeiro lugar, parênteses ( ).<br>" ?>
+    <?= "• Em segundo lugar, operadores de multiplicação, divisão e módulo * / %<br>" ?>
+    <?= "• Em seguida, as adições e subtrações + - <br>" ?>
 
     <!-- Seção: Comandos de saída do PHP -->
-    <h4>Comandos de Saída do PHP</h4>
-    <?= "Os comandos ECHO, PRINT e PRINTF servem para gerar saídas na tela. Um exemplo simples desse comando é:<br><br>" ?>
+    <h4>Obtendo valores da URL com PHP</h4>
+    <?= "<br><br>" ?>
     <?= "echo 'Estou aprendendo variáveis em PHP';<br><br>" ?>
     <?= "Foi utilizada uma tag HTML para a quebra de linha. Isso é possível, já que o PHP se integra com essa tecnologia.<br><br>" ?>
 
@@ -34,7 +38,7 @@
         $n1 = 97;
         $n2 = 3;
         $media = ($n1 + $n2) / 2;
-        
+
         echo "<br>";
         echo htmlspecialchars('<?php $n1 = 3;  $n2 = 97;  echo "A soma vale:". ($n1 + $n2); ?>'); echo "<br>";
         echo htmlspecialchars('<?php $n1 = 3;  $n2 = 97;  echo "A sub vale:". ($n1 - $n2); ?>'); echo "<br>";
