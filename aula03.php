@@ -31,17 +31,31 @@
       <h4>Exemplo de Código PHP:</h4>
       <pre>
         <?php
-        $idade = 26;
-        $nome = "Carol";
-        echo htmlspecialchars('<?php $idade = 26;  $nome = "Carol";  echo "$nome tem $idade anos."; ?>');
+        $n1 = 97;
+        $n2 = 3;
+        $media = ($n1 + $n2) / 2;
+        
+        echo "<br>";
+        echo htmlspecialchars('<?php $n1 = 3;  $n2 = 97;  echo "A soma vale:". ($n1 + $n2); ?>'); echo "<br>";
+        echo htmlspecialchars('<?php $n1 = 3;  $n2 = 97;  echo "A sub vale:". ($n1 - $n2); ?>'); echo "<br>";
+        echo htmlspecialchars('<?php $n1 = 3;  $n2 = 97;  echo "A multip vale:". ($n1 * $n2); ?>'); echo "<br/>";
+        echo htmlspecialchars('<?php $n1 = 3;  $n2 = 97;  echo "A divi vale:". ($n1 / $n2); ?>'); echo "<br/>";
+        echo htmlspecialchars('<?php $n1 = 3;  $n2 = 97;  echo "O modulo vale:". ($n1 % $n2); ?>');
         ?>
       </pre>
     </div>
 
     <?php
-    $idade = 26;
-    $nome = "Carol";
-    echo "Saída: $nome tem $idade anos.";
+    $n1 = 97;
+    $n2 = 3;
+    $media = ($n1 + $n2) / 2;
+    echo "Saída → A soma vale: ". ($n1 + $n2);
+    echo "<br/> Saída → A sub vale: ". ($n1 - $n2);
+    echo "<br/>Saída → A multip vale: ". ($n1 * $n2);
+    echo "<br/>Saída → A divi vale: ". ($n1 / $n2);
+    echo "<br/>Saída → O modulo vale: ". ($n1 % $n2);
+    echo "<br/>Saída → O modulo vale: ". ($n1 % $n2);
+    echo "<br/>Saída → A média vale: ". $media;
     ?>
   </div>
 </body>
