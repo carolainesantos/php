@@ -56,23 +56,24 @@
     echo "<br/>Saída → O modulo vale: ". ($n1 % $n2);
     echo "<br/>Saída → A média vale: ". $media;
     ?>
-    
-    <!-- Seção: Obtendo valores da URL com PHP -->
-    <h4>Obtendo valores da URL com PHP</h4>
-    <?= " Exemplo de url abaixo:<br>" ?>
-    <?= "http://localhost/aula05/operadores.php?a=3&b=2<br><br>" ?>
-    <?= "No link acima, o arquivo operadores.php está sendo chamado dentro da pasta <br>aula05 do servidor local. Na linha, serão passados dois valores: a valendo 3 e b valendo 2.<br><br>" ?>
-    <?= "Para pegar esses valores no script PHP, usar o código:<br>" ?>
-    <pre>
-      <?= htmlspecialchars('$valor1 = $_GET["a"];') ?><br>
-      <?= htmlspecialchars('$valor2 = $_GET["b"];') ?>
-    </pre>
   </div> <!-- Fecha div container-->
-    
-      <div class="card02">
-        <h3>Segundo Card</h3>
-        <p>No código anterior, o parâmetro a (3) passado pela URL será armazenado na variável $valor1. <br> De maneira similar, a variável $valor2 vai conter o valor do parâmetro b (2).</p>
+  
+  <div class="card02">
+    <div class="Conteudo">
+      <h4>Obtendo valores da URL com PHP</h4>
+        <?= " Exemplo de url abaixo:<br>" ?>
+        <?= "http://localhost/aula05/operadores.php?a=3&b=2<br><br>" ?>
+        <?= "No link acima, o arquivo operadores.php está sendo chamado dentro da pasta <br>aula05 do servidor local. Na linha, serão passados dois valores: a valendo 3 e b valendo 2.<br><br>" ?>
+        <?= "Para pegar esses valores no script PHP, usar o código:<br>" ?>
+          <pre>
+            <?= htmlspecialchars('$valor1 = $_GET["a"];') ?><br>
+            <?= htmlspecialchars('$valor2 = $_GET["b"];') ?>
+          </pre>
+              <p>No código anterior, o parâmetro a (3) passado pela URL será armazenado na variável $valor1.</p>
+              <p>De maneira similar,  a variável $valor2 vai conter o valor do parâmetro b (2).<br>
+              Obs: Usar sempre $_GET com todas as letras maiusculas.</p>
+              <?= "Funções Matemáticas em PHP abs() : Retorna o valor absoluto de um número." ?>
+        </div>
       </div>
-    
   </body>
 </html>
