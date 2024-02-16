@@ -70,7 +70,7 @@
             <?= htmlspecialchars('$valor2 = $_GET["b"];') ?>
           </pre>
               <p>No código anterior, o parâmetro a (3) passado pela URL será armazenado na variável $valor1.</p>
-              <p>De maneira similar,  a variável $valor2 vai conter o valor do parâmetro b (2).<br>
+              <p>De maneira similar, a variável $valor2 vai conter o valor do parâmetro b (2).<br>
               Obs: Usar sempre $_GET com todas as letras maiusculas.</p>
               <?= "Funções Matemáticas em PHP abs() : Retorna o valor absoluto de um número." ?>
         </div>
