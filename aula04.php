@@ -17,7 +17,6 @@
       </h3>
     </div>
 
-
     <h3>Operações Aritméticas em PHP</h3>
   <?php 
     $v1 = $_GET["x"];
