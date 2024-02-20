@@ -12,14 +12,18 @@
       <div class="title">
         <h3>
           <?php
-        echo "Aula 03";
+        echo "Aula 04";
         ?>
       </h3>
     </div>
+
+
+    <h3>Operações Aritméticas em PHP</h3>
   <?php 
     $v1 = $_GET["x"];
     $v2 = $_GET["y"];
-    echo "<h3>Valores recebidos na url: $v1 e $v2</h3>";
+    echo "<h4>Valores recebidos na url: $v1 e $v2</h4>";
+    echo "O valor absoluto de $v2 e " . abs($v2);
   ?>
 </body>
 </html>
