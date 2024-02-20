@@ -45,8 +45,10 @@
     </div>
     
     <?php
-    $n1 = 97;
-    $n2 = 3;
+    $n1 = $_GET["a"];
+    $n2 = $_GET["b"];
+    echo "<h3>Valores recebidos na url: $n1 e $n2</h3> ";
+
     $media = ($n1 + $n2) / 2;
     echo "Saída → A soma vale: ". ($n1 + $n2);
     echo "<br/> Saída → A sub vale: ". ($n1 - $n2);
@@ -95,6 +97,8 @@
 
           <p>number_format() : Formata um número Real.<br>
               exemplo: number_format(3258.754, 2, “,”, “.”) = 3.258. 75.</p>
+
+          <p>Obs: Ainda existem os métodos ceil() e floor() para arredondamentos para cima e para baixo, respectivamente. A função round() vai usar as regras de arredondamento.</p>
         </div>
       </div>
   </body>
