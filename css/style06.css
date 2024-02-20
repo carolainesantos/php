@@ -1,0 +1,32 @@
+body {
+  color: #fafafa;
+  background-color: rgb(84, 175, 218);
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 100vh;
+  margin: 100px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card01 .title {
+  margin: 0px;
+  color: chartreuse;
+}
+
+.card01 {
+  background-color: rgba(97, 84, 28, 0.9);
+  border: none;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px;
+  height: 600px;
+  width: 500px;
+}
