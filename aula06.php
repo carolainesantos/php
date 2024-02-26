@@ -27,19 +27,23 @@
   <!-- Este exemplo mostra a referencia da variavel a qual ele esta apontando-->
   <!-- Colocar um caractere & na frente de uma variável vai criar um ponteiro em PHP. Ela não será uma  variável de fato, mas será uma referência à variável original. -->
   <?php 
-    echo "<h4>Operadores de atribuição em PHP</h4>";
+    echo "<h4>Variável por referência em PHP</h4>";
     $a = 3;
     $b = &$a;
     $b += 5;
     echo "A variável A vale $a";
-    echo "<br/>A variável B vale $b";
+    echo "<br/>A variável B vale $b<br/>";
   ?>
 
    <!-- Este exemplo mostra Variáveis de Variáveis (variáveis variantes) 
       Colocar um segundo $ na frente de uma variável também possui um efeito bem peculiar. Ele vai criar uma variável dinamicamente, dependendo do conteúdo da variável original. Essas são as variáveis de variáveis em PHP.
     -->
   <?php 
-    
+    $x = "abc";
+    $$x = "def";
+    echo "<h4>Variáveis Variantes em PHP</h4>";
+    echo "A variável X vale $x";
+    echo "<br/>A variável ABC recebe o valor: $abc";
   ?>
 </body>
 </html>

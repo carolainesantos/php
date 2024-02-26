@@ -25,8 +25,8 @@
       $preco -= ($preco * 10) /100; 
       echo "<br>E o novo preço com 10% de desconto será : R$ " . number_format($preco, 2);
 
-      // pra pegar a pocentagem de algo pega o valor desejado e 
-      // multiplica pela porcentagem  desejada e depois divide por 100 Ex= 10% de $500. 
+      // Pra pegar a pocentagem de algo pega o valor desejado e 
+    // multiplica pela porcentagem  desejada e depois divide por 100 Ex= 10% de $500. 
       // $preco += ($preco*10/100);
       // (500 * 10 / 100)
       // echo "<br>E o novo preço com 10% de aumento será : R$ $preco";
