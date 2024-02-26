@@ -22,7 +22,7 @@
     <?php 
       $preco = $_GET["p"];
       echo "O preço do produto é R$ " . number_format($preco, 2); 
-      $preco -= ($preco*10/100); 
+      $preco -= ($preco * 10) /100; 
       echo "<br>E o novo preço com 10% de desconto será : R$ " . number_format($preco, 2);
 
       // pra pegar a pocentagem de algo pega o valor desejado e 
