@@ -17,15 +17,25 @@
       </h3>
     </div>
 
-   <!-- Este exemplo -->
+   <!-- Este exemplo mostra a comparação de valor igual -->
   <?php 
-    echo "<h4>Operadores Relacionais</h4>";
+    echo "<h4>Operadores Relacionais (Igual)</h4>";
+    $n1 = $_GET["a"];
+    $n2 = $_GET["b"];
+    $tipo = $_GET["op"];
+    echo "Os valores recebidos foram $n1 e $n2<br/>";
+    $resultado = ($tipo == "s") ? $n1 + $n2 : $n1 * $n2;
+    echo "O resultado será $resultado";
   ?>
 
-  <!-- -->
-
+  <!-- Este exemplo mostra a comparação de valores identicos (valor e tipo)
+    exemplo = 3 e "tres" ou "3" = são comparações de identicos neste exemplo a resposta é Nao pq elas nao sao do mesmo tipo apenas valores iguais -->
   <?php 
-   
+    echo "<h4>Operadores Relacionais (Identicos)</h4>";
+    $x = 3;
+    $y = "3";
+    $r = ($x === $y) ? "SIM" : "NÃO"; 
+    echo "As variaveis A e B são iguais? $r";
   ?>
 
    <!-- 
