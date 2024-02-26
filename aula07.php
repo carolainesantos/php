@@ -26,6 +26,7 @@
     echo "Os valores recebidos foram $n1 e $n2<br/>";
     $resultado = ($tipo == "s") ? $n1 + $n2 : $n1 * $n2;
     echo "O resultado será $resultado";
+    echo "<br/>___________________________________________________________";
   ?>
 
   <!-- Este exemplo mostra a comparação de valores identicos (valor e tipo)
@@ -36,12 +37,12 @@
     $y = "3";
     $r = ($x === $y) ? "SIM" : "NÃO"; 
     echo "As variaveis A e B são iguais? $r";
+    echo "<br/>___________________________________________________________";
   ?>
 
-   <!-- 
-    -->
+   <!--  -->
   <?php 
-
+    
   ?>
 </body>
 </html>
