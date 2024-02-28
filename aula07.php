@@ -30,7 +30,7 @@
   ?>
 
   <!-- Este exemplo mostra a comparação de valores identicos (valor e tipo)
-    exemplo = 3 e "tres" ou "3" = são comparações de identicos neste exemplo a resposta é Nao pq elas nao sao do mesmo tipo apenas valores iguais -->
+    exemplo = 3 e "tres" ou "3" = são comparações de identicos neste exemplo a resposta é Nao pq elas nao são do mesmo tipo apenas valores iguais -->
   <?php 
     echo "<h4>Operadores Relacionais (Identicos)</h4>";
     $x = 3;
@@ -48,6 +48,7 @@
     $media = ($nota1 + $nota2) / 2;
     echo "A media entre $nota1 e $nota2 é $media";
     echo "<br/>A situação do aluno é" . (($media < 6) ? " REPROVADO" : " APROVADO");
-  ?>
+  ?> 
+  
 </body>
 </html>
