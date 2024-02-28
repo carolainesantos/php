@@ -12,14 +12,19 @@
       <div class="title">
         <h3>
           <?php
-        echo "Aula 07";
+        echo "Aula 08";
         ?>
       </h3>
     </div>
 
    <!-- Este exemplo mostra a comparação de valor igual -->
   <?php 
-    echo "<h4>Operadores Relacionais (Igual)</h4>";
+    echo "<h4>Operadores Relacionais</h4>";
+    $ano = $_GET["ano"];
+    $idade = 2024 - $ano; 
+    echo "Quem nasceu em $ano tem $idade anos <br/>";
+    $tipo = ($idade>=18 && $idade<65)?" OBRIGATÓRIO":" NÃO OBRIGATÓRIO";
+    echo "<br/>E dessa forma seu voto é: $tipo";
    
     echo "<br/>___________________________________________________________";
   ?>
