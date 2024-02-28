@@ -20,7 +20,9 @@
 
   <?php 
     $valor = $_GET["b"];
-    echo "O valor enviado foi $valor";
+    $rq = sqrt($valor);
+    echo "A raiz de  $valor é igual a: ". number_format($rq, 2);
   ?>
+  <a href="01exerc.html">Voltar</a>
 </body>
 </html>
