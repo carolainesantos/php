@@ -19,7 +19,7 @@
 
    <!-- Este exemplo mostra a comparação de valor igual -->
   <?php 
-    echo "<h4>Operadores Relacionais</h4>";
+    echo "<h4>Operadores Lógicos</h4>";
     $ano = $_GET["ano"];
     $idade = 2024 - $ano; 
     echo "Quem nasceu em $ano tem $idade anos <br/>";
