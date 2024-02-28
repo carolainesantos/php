@@ -30,9 +30,9 @@
     envia o parametro recebido pela url, se não ele 
     mostra a mensagem "não inf.." */
     $nome = isset($_GET["nome"])?$_GET["nome"]:"[não informado]"; 
-    $ano =  isset($_GET["ano"])?$_GET["ano"]:"[não informado]";                                           
-    $sexo = isset($_GET["sexo"])?$_GET["sexo"]:"[não informado]";
-    $idade = date("Y")
+    $ano =  isset($_GET["ano"])?$_GET["ano"]:0;                                           
+    $sexo = isset($_GET["sexo"])?$_GET["sexo"]:"[sexo não informado]";
+    $idade = date("Y");
 
     echo "$nome é $sexo e tem $idade anos.";
   ?>
