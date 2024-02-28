@@ -11,20 +11,22 @@
 <body>
   <div class="card-container">
     <div class="card01">
-      <div class="title">
-        <form method="get" action="02idade.php">
-          Nome: <input type="text" name="nome" /></br>
-          Ano de Nasc: <input type="number" name="ano" /><br />
-          <fieldset>
-            <legend>Sexo</legend>
-            <input type="radio" name="sexo" id="masc" />
-            <label for="masc">Masculino</label><br />
-            <input type="radio" name="sexo" id="fem" />
-            <label for="fem">Feminino</label>
-          </fieldset><br />
-          <input type="submit" value="Enviar" class="enviar" />
-        </form>
-      </div>
+      <div class="title"></div>
+
+      <form method="get" action="02idade.php">
+        Nome: <input type="text" name="nome" /></br>
+        Ano de Nasc: <input type="number" name="ano" /><br />
+
+        <fieldset>
+          <legend>Sexo</legend>
+          <input type="radio" name="sexo" id="masc" value="Homem" checked />
+          <label for="masc">Masculino</label><br />
+          <input type="radio" name="sexo" id="fem" value="Mulher" />
+          <label for="fem">Feminino</label>
+        </fieldset><br />
+
+        <input type="submit" value="Enviar" class="enviar" />
+      </form>
     </div>
   </div>
 </body>

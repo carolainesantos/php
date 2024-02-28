@@ -20,10 +20,24 @@
 
   <?php 
     echo "<h4>Integração HTML5 + PHP</h4>";
-    $valor = $_GET["b"];
-    $rq = sqrt($valor);
-    echo "A raiz de  $valor é igual a: ". number_format($rq, 2);
+
+    // $nome = $_GET["nome"];
+    // $ano = $_GET["ano"];
+    // $sexo = $_GET["sexo"];
+    // $idade = date("Y") - $ano; // y em minusculo mostra por exemplo: 2024 ira aparecer 24
+
+    /* isset serve pra q se algo foi configurado ele 
+    envia o parametro recebido pela url, se não ele 
+    mostra a mensagem "não inf.." */
+    $nome = isset($_GET["nome"])?$_GET["nome"]:"[não informado]"; 
+    $ano =  isset($_GET["ano"])?$_GET["ano"]:"[não informado]";                                           
+    $sexo = isset($_GET["sexo"])?$_GET["sexo"]:"[não informado]";
+    $idade = date("Y")
+
+    echo "$nome é $sexo e tem $idade anos.";
   ?>
+
   <a href="02exerc.html">Voltar a Page HTML</a>
+
 </body>
 </html>
