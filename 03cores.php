@@ -33,7 +33,7 @@
     </div>
 
   <?php 
-  echo "<h4>Integração HTML5 + PHP</h4>";
+    echo "<h4>Integração HTML5 + PHP</h4>";
     echo "<span class='texto'>$txt</span>";
   ?>
 
