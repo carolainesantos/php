@@ -37,7 +37,7 @@
     echo "<span class='texto'>$txt</span>";
   ?>
 
-  <a href="03exerc.html">Voltar a Page HTML</a>
+  <a href="04exerc.html">Voltar a Page HTML</a>
 
 </body>
 </html>
