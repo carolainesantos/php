@@ -35,7 +35,7 @@
         echo "REPROVADO";
       }
     ?>
-  <a href="04exerc.html">Voltar a Page HTML</a>
+  <a href="05exerc.html">Voltar a Page HTML</a>
 
 </body>
 </html>
