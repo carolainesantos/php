@@ -20,32 +20,21 @@
 
   <?php 
      echo "<h4>Integração HTML5 + PHP</h4>";
-     $a = isset($_GET["ano"])?$_GET["ano"]:1900;
-     $i = date("Y") - $a;
-     echo "<h4>Você nasceu no ano: $a e tem $i anos.</h4>";
+     $n1;
+     $n2;
+     $media = (n1 + n2) / 2;
+     echo "<h4></h4>";
 
-    /* exemplo 01
-      if($i >=18) {
-       $v = "ja pode votar";
-       $d = "ja pode dirigir";
-     } 
-     else {
-      $v = "não pode votar";
-      $d = "não pode dirigir";
-    }  
-    echo "Com essa idade você, $v e também $d. <br/>"; */
-
-    if($i < 16) {
-      $tipoVoto = "não vota";
-    } 
-    elseif (($i >= 16 && $i < 18) || ($i > 65)) {
-      $tipoVoto = "voto opcional";
-    }
-    else {
-      $tipoVoto = "voto obrigatório";
-    }
-    echo "Para essa idade, $tipoVoto. <br/>";
-  ?>
+      if($media >= 7) {
+        echo "APROVADO";
+      } 
+      elseif ($media < 7 && $media >= 5) {
+        echo "RECUPERAÇÃO";
+      }
+      else {
+        echo "REPROVADO";
+      }
+    ?>
   <a href="04exerc.html">Voltar a Page HTML</a>
 
 </body>
