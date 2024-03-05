@@ -19,11 +19,10 @@
     </div>
 
   <?php 
-     echo "<h4>Integração HTML5 + PHP</h4>";
-     $n1;
-     $n2;
-     $media = (n1 + n2) / 2;
-     echo "<h4></h4>";
+    echo "<h4>Integração HTML5 + PHP</h4>";
+    $n1 = $_GET["nota1"];
+    $n2 = $_GET["nota2"];
+    $media = ($n1 + $n2) / 2;
 
       if($media >= 7) {
         echo "APROVADO";
@@ -34,8 +33,9 @@
       else {
         echo "REPROVADO";
       }
-    ?>
-  <a href="05exerc.html">Voltar a Page HTML</a>
+  ?>
+
+  <a href="05exerc.html" >Voltar a Page HTML</a>
 
 </body>
 </html>
