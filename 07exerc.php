@@ -42,7 +42,7 @@
     echo "<br/>O resultado da operação solicitada foi <span class='foco'>$r</span>";
   ?>
 
-  <a href= "06exerc.html" class="botao" >Voltar a Page HTML</a>
+  <a href= "07exerc.html" class="botao" >Voltar a Page HTML</a>
 
 </body>
 </html>
