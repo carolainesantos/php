@@ -24,6 +24,7 @@ fieldset {
   color: #fafafa;
   border-color: #0abae6;
   border-radius: 3px;
+  padding: 4px;
 }
 
 .enviar {

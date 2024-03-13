@@ -20,29 +20,26 @@
 
   <?php 
     echo "<h4>Switch PHP</h4>";
-    $d = isset($_GET["ds"]) ?$_GET["ds"] : 0;
-    $o = isset($_GET["oper"]) ?$_GET["oper"] : 1;
-    switch($o){
-      case 1:
-        $r = $n * 2;
-        echo "O dobro de $n é $r";
-        break;
+    $d = isset($_GET["ds"])?$_GET["ds"]:0;
+
+    switch($d){
       case 2:
-        $r = $n ^ 3;
-        echo "O cubo de $n é $r";
-        break;
       case 3:
-        $r = sqrt($n);
-        echo "A raiz quadrada de $n é $r";
+      case 4:
+      case 5:
+      case 6:
+        echo "Levanta e vai estudar! :)";
         break;
-        default:
-        echo "Opção inválida";
+      case 7:
+      case 8:
+        echo "Descanse pequeno gafanhoto! :D";
         break;
+      default:
+        echo "Dia da semana invalido!";
     }
-    echo "<br/>O resultado da operação solicitada foi <span class='foco'>$r</span>";
   ?>
 
-  <a href= "javascript:hiostory.go(-1)" class="botao" >Voltar a Page HTML</a>
+  <a href= "javascript:history.go(-1)" class="botao" >Voltar</a>
 
 </body>
 </html>
