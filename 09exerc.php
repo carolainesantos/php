@@ -13,17 +13,16 @@
       <div class="title">
         <h3>
           <?php
-            echo "Aula 10";
+            echo "Aula 11";
           ?>
       </h3>
     </div>
 
   <?php 
-      if ($_SERVER["REQUEST_METHOD"] == "GET") {
-        // Obtém o estado selecionado
-        $estado = $_GET['estado'];
-        
-        echo "Você selecionou o estado: $estado";
+      $c = 10;
+      while ($c >= 1) {
+        echo $c . "<br>";
+        $c--;
       }
   ?>
 
