@@ -17,7 +17,6 @@
     </div>
 
     <div>
-      <form method="get" action="">
         <?php 
           $c = 0;
           do {
@@ -25,8 +24,6 @@
             $c+=2;
           } while ($c <= 20);
         ?>
-        <input type="submit" value="Enviar" class="botao"/> 
-      </form>
     </div>
 
 </body>

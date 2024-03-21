@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Estudadndo PHP</title>
-  <link rel="stylesheet" href="./css/style09.css">
+  <link rel="stylesheet" href="../css/style09.css">
 </head>
 
 <body>
@@ -20,13 +20,11 @@
 
   <?php 
       $c = 10;
-      while ($c >= 1) {
-        echo $c . "<br>";
-        $c--;
+      while ($c >= 0) {
+        echo $c . " . ";
+        $c-=2;
       }
   ?>
-
-  <a href= "javascript:history.go(-1)" class="botao" >Voltar</a>
 
 </body>
 </html>
