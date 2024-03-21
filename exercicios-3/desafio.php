@@ -36,12 +36,12 @@
       // Incremento positivo
       // Loop para imprimir os números de forma crescente
       for ($i = $inicio; $i <= $final; $i += $incremento) {
-          echo $i . "<br>";
+          echo $i . " • ";
       }
     } elseif ($inicio > $final && $incremento) {
       // Loop para imprimir os números de forma decrescente
       for ($i = $inicio; $i >= $final; $i -= $incremento) {
-        echo $i . "  ";
+        echo $i . " . ";
       }
     }
   }
