@@ -6,7 +6,7 @@
   <!-- <meta http-equiv="refresh" content="30"> Serve pra dar refresh automático a cada 30seg-->
   <title>Estudando PHP</title>
 
-  <link rel="stylesheet" href="./css/style02.css">
+  <link rel="stylesheet" href="../css/style02.css">
 </head>
 
 <body>

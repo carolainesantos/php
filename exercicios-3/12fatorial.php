@@ -13,18 +13,14 @@
       <div class="title">
         <h3>
           <?php
-            echo "Aula 10";
+            echo "Aula 12";
           ?>
       </h3>
     </div>
 
-  <?php 
-      if ($_SERVER["REQUEST_METHOD"] == "GET") {
-        // Obtém o estado selecionado
-        $estado = $_GET['estado'];
-        
-        echo "Você selecionou o estado: $estado";
-      }
+  <?php
+ 
+
   ?>
 
   <a href= "javascript:history.go(-1)" class="botao" >Voltar</a>

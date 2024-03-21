@@ -18,7 +18,7 @@
   </style>
 
   <title>Estudadndo PHP</title>
-  <link rel="stylesheet" href="./css/style09.css">
+  <link rel="stylesheet" href="../css/style09.css">
   
 </head>
 <body>
