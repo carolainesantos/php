@@ -19,8 +19,8 @@
     </div>
 
   <?php
- 
-
+    $v = isset($_GET["val"]) ?$_GET["val"] : 1;
+    echo "<h4>Calculando o Fatorial de $v<h4/>"
   ?>
 
   <a href= "javascript:history.go(-1)" class="botao" >Voltar</a>
