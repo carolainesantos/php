@@ -20,10 +20,17 @@
 
   <?php
     $v = isset($_GET["val"]) ?$_GET["val"] : 1;
-    echo "<h4>Calculando o Fatorial de $v<h4/>"
+    echo "<h4>Calculando o Fatorial de $v<h4/>";
+    $c = $v;
+    $fat = 1;
+    do {
+      $fat = $fat * $c;
+      $c--;
+    } while($c >= 1);
+    echo "<h3>$v ! = $fat";
   ?>
 
-  <a href= "javascript:history.go(-1)" class="botao" >Voltar</a>
+  <a href= "javascript:history.go(-1)" class="<br/>botao" >Voltar</a>
 
 </body>
 </html>
